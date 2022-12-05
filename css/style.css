@@ -1,0 +1,105 @@
+/* Universal CSS */
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body{
+    margin: 0 10%;
+
+}
+
+.container{
+    border: 2px solid grey;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+h1{
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+h2{
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.color-container{
+    width: 100%;
+}
+
+.color-panal{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.color-label{
+    margin: 20px auto;
+}
+
+.color-hex{
+    margin: 20px auto;
+}
+
+.cool-blue{
+    background-color: #2d5dcc;
+    color: white;
+}
+
+.pink{
+    background-color: #d957d9;
+}
+
+.mint-green{
+    background-color: #4fe0b0;
+}
+
+.beige{
+    background-color: #efd9ca;
+}
+
+.fonts-container{
+    width: 100%;
+}
+
+.font-panal{
+    display: inline-block;
+    width: 45%;
+}
+
+.source-code{
+    font-family: 'Source Code Pro', monospace;;
+}
+
+.nunito-sans{
+    font-family: 'Nunito Sans', sans-serif;;
+}
+
+.poppins-font{
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-label{
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 16px 0;
+}
+
+.regular{
+    font-style: normal;
+    margin: 16px 0;
+}
+
+.bold{
+    font-weight: 600;
+    margin: 16px 0;
+}
+
+.italic{
+    font-style: italic;
+    margin: 16px 0;
+}
